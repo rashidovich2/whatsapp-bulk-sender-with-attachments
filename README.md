@@ -19,11 +19,12 @@ Please reach out to me on [![Linkedin Badge](https://img.shields.io/badge/-MAH-b
 
 1. Enter the message you want to send inside `message.txt` file.
 2. Enter the list of numbers line-separated in `numbers.txt` file.
-3. Run `python automator.py`.
-4. Once the program starts, you'll see the message in message.txt and count of numbers in the numbers.txt file.
-5. After a while, Chrome should pop-up and open web.whatsapp.com.
-6. Scan the QR code to login into whatsapp.
-7. Press `Enter` to start sending out messages.
-8. Sit back and relax!
+3. Add path of the folder where attachment are stored in line 89 `filen=(f"Give the path name here/{filename}")#path name where file is stored Eg: "C:/Users/Desktop/bot/`
+4. Run `python automator.py`.
+5. Enter the file name when prompted
+6. Once the program starts, you'll see the message in message.txt and count of numbers in the numbers.txt file.
+7. After a while, Chrome should pop-up and open web.whatsapp.com.
+8. Scan the QR code to login into whatsapp.
+10. Sit back and relax!
 
 Source code credits @anirudhbagri.
